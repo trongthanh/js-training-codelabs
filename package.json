@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public/",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongthanh/js-training-codelabs.git"
+  },
+  "author": "Thanh Tran <trongthanh@gmail.com> (http://int3ractive.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trongthanh/js-training-codelabs/issues"
+  },
+  "homepage": "https://github.com/trongthanh/js-training-codelabs#readme",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
