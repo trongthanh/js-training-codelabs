@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server public/",
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/trongthanh/js-training-codelabs#readme",
   "devDependencies": {
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8"
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
   }
 }
