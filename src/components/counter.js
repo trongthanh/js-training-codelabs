@@ -1,3 +1,4 @@
+import get from 'lodash/get';
 import store from '../store/index.js';
 import { $ } from '../utils/index.js';
 
@@ -7,13 +8,13 @@ const counter = {
 		const now = new Date();
 
 		$('#plus-btn').addEventListener('click', () => {
-			let counter = store.data.counter;
+			let counter = get(store, 'data.counter');
 			store.set('counter', ++counter); // synchronous
 			this.render();
 		});
 
 		$('#minus-btn').addEventListener('click', () => {
-			let counter = store.data.counter;
+			let counter = get(store, 'data.counter');
 			store.set('counter', --counter); // synchronous
 			this.render();
 		});
